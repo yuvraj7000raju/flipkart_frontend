@@ -1,0 +1,131 @@
+@media screen and (max-width: 1218px) {
+    /* .m-1{
+        display: none;
+    } */
+    .search{
+        width: 320px;
+    }
+    /* .box{
+        margin: 7px;
+    } */
+}
+@media  screen and (max-width:1193px) {
+   
+    .m1{
+        width: 80%;
+    }
+    .m-container{
+        justify-content: space-evenly;
+    }
+    .mob-img{
+        height: 150px;
+    }
+    .m-box{
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 1041px) {
+    .slide-move{
+        visibility: hidden;
+    }
+    .m-1{
+        display: none;
+    }
+    .search{
+        font-size: 7px;
+    }
+    .hl{
+        justify-content: left;
+    }
+    .box{
+        margin: 3px;
+    }
+    .m2{
+        display: none;
+    }
+    .m1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 780px){
+
+.navigation-1{
+    visibility: visible;
+    display: flex;
+    padding-top: 10px;
+}
+.n1 ,.n2{
+    display: none;
+}
+.navigation-2{
+    display: flex;
+    justify-content: center;
+}
+.n-out{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    margin-left: 30px;
+    width:100%;
+}
+.hl{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+ }
+ .box{
+    padding: 0;
+ }
+}
+@media screen and (max-width: 524px){
+    .img{
+        height: 60px;
+        font-size: 10px;
+    }
+    .top-offers{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 450px){
+    .n-out{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .navigation-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        margin: 0px;
+        
+    }
+    .search-a , .search{
+        width: 90%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .navigate{
+        column-gap: 10px;
+    }
+    .nav-button1 , .nav-button2{
+        width: 43%;
+    }
+    .hl{
+       display: grid;
+       grid-template-columns: auto auto auto auto;
+    }
+    .del{
+        display: none;
+    }
+    .img{
+        height: 50px;
+    }
+    .top-offers{
+        font-size: 15px;
+    }
+ 
+}
