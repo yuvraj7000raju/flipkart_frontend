@@ -294,6 +294,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .m2{
     padding: 20px 3px;
@@ -354,6 +355,7 @@ main{
 .poster{
     height:600px;
     width: 62%;
+    overflow: hidden;
 }
 .big-poster{
     height: 100%;

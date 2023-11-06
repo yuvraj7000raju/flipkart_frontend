@@ -46,8 +46,75 @@
     .m1{
         width: 100%;
     }
+    .m-container{
+        justify-content: left;
+    }
+    .m-lay{
+        justify-content: space-around;
+    }
+    .b-1{
+        width: 33%;
+    }
+    .banner-1{
+        padding: 2px 5px;
+    }
+    .poster{
+        display: none;
+    }
+    .p{
+        width: 100%;
+        padding: 8px;
+    }
+    .p2{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .pr{
+        margin: 0;
+        padding: 4px;
+    }
+    
+}
+@media screen and (max-width: 510px){
+    .f-img{
+      width: 80vw;
+      box-sizing: border-box;
+     }
 }
 @media screen and (max-width: 780px){
+    .mob-img{
+        height: 100px;
+        padding: 0px;
+    }
+    .m-box-img{
+        display: flex;
+        justify-content: center;
+    }
+    .m-box-name{
+        font-size: 13px;
+        text-align: center;
+    }
+    .m-box{
+        
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .m-lay{
+        display: flex;
+        justify-content: space-between;
+    }
+    .m-container{
+        justify-content: left;
+        /* padding: ; */
+    }
+    .m-lay{
+        display: flex;
+        justify-content: space-between;
+    }
 
 .navigation-1{
     visibility: visible;
@@ -78,6 +145,19 @@
  .box{
     padding: 0;
  }
+ .p{
+    width: 100%;
+    padding: 10px;
+}
+.p2{
+    display: grid;
+    justify-content: center;
+    
+}
+.pr{
+    margin: 10px;
+    padding: 10px;
+}
 }
 @media screen and (max-width: 524px){
     .img{
@@ -86,6 +166,10 @@
     }
     .top-offers{
         font-size: 15px;
+    }
+    .pr{
+        margin: 8px;
+        padding: 5px;
     }
 }
 @media screen and (max-width: 450px){
@@ -127,5 +211,10 @@
     .top-offers{
         font-size: 15px;
     }
- 
+    .pr-name{
+        font-size: 15px;
+    }
+    .pr-img{
+        height: 140px;
+    }
 }
