@@ -1,8 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    
-    
 }
 *::-webkit-scrollbar {
     display: none;
@@ -127,14 +125,6 @@
     margin: 10px;
     border: none;
 }
-
-/* .login{
-    height: 6vh;
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 20px;
-} */
 .n1,.n2{
     display: flex;
     justify-content: space-around;
@@ -390,8 +380,11 @@ main{
     background-color: rgb(33, 33, 33);
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 10px;
     padding: 30px 60px;
     color: white;
+   
+    
 }
 ul{
     list-style: none;
@@ -416,6 +409,16 @@ ul{
     color: white;
     border-top: 1px solid grey;
 }
-.f-in{
-    display: inline-block;
+.ff{
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    /* width: min-content; */
+}
+.fb-img{
+    display: flex;
+    align-items: center;
 }

@@ -23,6 +23,9 @@
     .m-box{
         padding: 5px;
     }
+    .f{
+        padding: 20px 30px;
+    }
 }
 @media screen and (max-width: 1041px) {
     .slide-move{
@@ -74,7 +77,38 @@
         margin: 0;
         padding: 4px;
     }
-    
+    .f{
+        /* grid-template-columns: auto auto auto auto;
+        justify-content: center; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0px 20px 30px 20px;
+        font-size: 13px;
+    }
+    .fhe{
+        margin-top: 30px;
+    }
+    .f4{
+        padding: 0;
+        border: none;
+    }
+    .f5{
+        padding: 0;
+    }
+    .f-in{
+        font-size: 12px;
+    }
+    .fb{
+        padding: 10px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .f-img-end{
+        height: 15px;
+        margin: 0;
+    }
 }
 @media screen and (max-width: 510px){
     .f-img{
@@ -158,6 +192,15 @@
     margin: 10px;
     padding: 10px;
 }
+.f-in{
+    display: none;
+}
+h1{
+    font-size: 16px;
+}
+.content{
+    font-size: 12px;
+}
 }
 @media screen and (max-width: 524px){
     .img{
@@ -171,6 +214,27 @@
         margin: 8px;
         padding: 5px;
     }
+    .fb-svg{
+        height: 10px;
+    }
+    .copyright{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .f-img-end{
+        
+        height:10px;
+        width: 200px;
+    }
+    .fb{
+        justify-content: space-between;
+    }
+    .ad-slider{
+        width: 90%;
+    }
+
 }
 @media screen and (max-width: 450px){
     .n-out{
@@ -205,6 +269,9 @@
     .del{
         display: none;
     }
+    .p{
+        padding: 0px;
+    }
     .img{
         height: 50px;
     }
@@ -216,5 +283,11 @@
     }
     .pr-img{
         height: 140px;
+    }
+}
+@media screen and (max-width: 373px){
+    .pr-img{
+        height: 100px;
+        
     }
 }
