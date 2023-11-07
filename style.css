@@ -10,6 +10,7 @@
     flex-direction: column;
     position: sticky;
     top: 0px;
+    background-color: white;
   }
   .navigation-1{
     background-color: white;
